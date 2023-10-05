@@ -1,0 +1,1456 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(43, 43, 43);
+  display: flex;
+}
+nav > .india {
+  position: absolute;
+  color: white;
+  left: 180px;
+  top: 50px;
+  font-size: 10px;
+}
+
+nav > .logo {
+  height: 100%;
+  width: 13.3%;
+  display: flex;
+  justify-content: end;
+}
+
+nav > .logo > svg {
+  fill: white;
+  width: 140px;
+}
+
+nav > .link {
+  height: 100%;
+  width: 47%;
+  display: flex;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+
+nav > .link > div > div {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+nav > .link > div > div:hover {
+  background-color: rgb(94, 94, 94);
+  cursor: pointer;
+}
+
+nav > .link > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > .link > .domain {
+  margin-left: 18px;
+  height: 100%;
+  width: 14%;
+}
+
+nav > .link > .domain > div {
+  height: 60%;
+  width: 80%;
+}
+
+nav > .link > .hosting {
+  margin-left: -10px;
+  height: 100%;
+  width: 14%;
+}
+
+nav > .link > .hosting > div {
+  height: 60%;
+  width: 80%;
+}
+
+nav > .link > .security {
+  margin-left: -10px;
+  height: 100%;
+  width: 14%;
+}
+
+nav > .link > .security > div {
+  height: 60%;
+  width: 80%;
+}
+
+nav > .link > .email {
+  margin-left: -5px;
+  height: 100%;
+  width: 25%;
+}
+
+nav > .link > .email > div {
+  height: 60%;
+  width: 100%;
+}
+
+nav > .link > .for {
+  height: 100%;
+  width: 29%;
+}
+
+nav > .link > .for > div {
+  height: 60%;
+  width: 96%;
+}
+
+nav > #signin {
+  height: 100%;
+  width: 22%;
+  margin-left: 222px;
+  display: flex;
+  color: white;
+  font-size: 14px;
+}
+
+nav > #signin > article > i {
+  position: absolute;
+}
+
+nav > #signin > article > .fa-angle-down {
+  top: 26px;
+  right: 269px;
+}
+
+nav > #signin > article > .a {
+  top: 26px;
+  right: 110px;
+}
+
+nav > #signin > article > .fa-cart-shopping {
+  top: 26px;
+  right: 60px;
+}
+
+nav > #signin > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > #signin > div > div {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > #signin > div > div:hover {
+  background-color: rgb(94, 94, 94);
+  cursor: pointer;
+}
+
+nav > #signin > .num {
+  margin-left: -20px;
+  height: 100%;
+  width: 43%;
+}
+
+nav > #signin > .num > div {
+  height: 70%;
+  width: 100%;
+}
+
+nav > #signin > .help {
+  height: 100%;
+  width: 23%;
+}
+
+nav > #signin > .help > div {
+  height: 70%;
+  width: 90%;
+}
+
+nav > #signin > .signin {
+  margin-left: -16px;
+  height: 100%;
+  width: 30%;
+}
+
+nav > #signin > .signin > div {
+  height: 70%;
+  width: 90%;
+}
+
+#page1 {
+  height: 115vh;
+  width: 100%;
+}
+
+#page1 > header {
+  height: 9%;
+  width: 92%;
+  margin-top: 10px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#page1 > header > input {
+  height: 80%;
+  width: 50%;
+  background-color: rgb(235, 235, 235);
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 22px;
+  border: none;
+}
+
+#page1 > header > input:focus {
+  border: 3px solid rgb(64, 149, 232);
+  outline: none;
+  padding: 20px 19px;
+}
+
+#page1 > header > input::placeholder {
+  color: rgb(68, 68, 68);
+}
+
+#page1 > header > .search {
+  height: 80%;
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 131, 140);
+  color: white;
+  font-weight: 700;
+}
+
+#page1 > header > .price {
+  padding-left: 60px;
+  height: 100%;
+  width: 35%;
+  display: flex;
+}
+
+#page1 > header > .price > div {
+  height: 100%;
+  width: 33%;
+  font-size: 13px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+#page1 > header > .price > div > div > svg {
+  fill: rgb(118, 118, 118);
+}
+
+#page1 > header > .price > div > .in {
+  margin-left: 30px;
+}
+
+#page1 > header > .price > div > .app {
+  margin-left: 32px;
+}
+
+#page1 > header > .price > div > .inc {
+  margin-left: 33px;
+}
+
+#page1 > main {
+  height: 52.5%;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page1 > main > .get-it-now {
+  margin-left: 63px;
+  height: 100%;
+  width: 64.8%;
+  background-image: url(./images/guy.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  color: white;
+}
+#page1 > main > .get-it-now > div > .name {
+  position: relative;
+  left: 720px;
+  color: white;
+}
+
+#page1 > main > .get-it-now > div {
+  margin-top: 40px;
+  height: 75%;
+  margin-left: 39px;
+  width: 35%;
+}
+
+#page1 > main > .get-it-now > div > .domain {
+  font-size: 16px;
+  font-weight: 850;
+}
+
+#page1 > main > .get-it-now > div > .get {
+  padding-top: 13px;
+  font-size: 42px;
+  font-weight: 850;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#page1 > main > .get-it-now > div > .grab {
+  font-size: 16px;
+  padding-top: 22px;
+  font-weight: 500;
+}
+
+#page1 > main > .get-it-now > div > .get-btn {
+  margin-top: 26px;
+  height: 50px;
+  width: 173px;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#page1 > main > .get-it-now > div > .get-btn:hover {
+  cursor: pointer;
+}
+
+#page1 > main > .get-it-now > div > .year {
+  font-weight: 650;
+  font-size: 12px;
+  padding-top: 28px;
+}
+
+#page1 > main > .learn-more {
+  border-radius: 5px;
+  margin-right: 58px;
+  height: 100%;
+  width: 26%;
+  background-color: rgb(216, 239, 239);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page1 > main > .learn-more > .container {
+  padding: 20px 20px;
+  width: 90%;
+  height: 90%;
+}
+
+#page1 > main > .learn-more > .container > h1 {
+  padding-top: 15px;
+  font-size: 42px;
+}
+
+#page1 > main > .learn-more > .container > ul {
+  padding-top: 25px;
+  padding-left: 15px;
+}
+#page1 > main > .learn-more > .container > ul > li {
+  line-height: 25px;
+}
+
+#page1 > main > .learn-more > .container > button {
+  width: 180px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 22px;
+}
+
+#page1 > article {
+  margin-top: 30px;
+  height: 24.5%;
+  width: 100%;
+}
+
+#page1 > article > div {
+  margin-left: 60px;
+  height: 50%;
+  width: 92%;
+  display: flex;
+}
+
+#page1 > article > .row1 > .box,
+#page1 > article > .row2 > .box {
+  height: 100%;
+  width: 20%;
+  border: 1px solid rgb(214, 214, 214);
+  text-align: center;
+  padding-top: 27px;
+  line-height: 25px;
+  font-weight: 550;
+}
+
+#page1 > article > .row > .box:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#page1 > article > .box5 {
+  height: 201px;
+  width: 330px;
+  left: 1117px;
+  position: absolute;
+  border: 1px solid rgb(214, 214, 214);
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#page1 > article > .box5 > .ai {
+  font-size: 40px;
+  margin-top: -10px;
+}
+
+#page1 > article > .box5 > .yr {
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+#page1 > article > .box5:hover {
+  color: white;
+  background-color: black;
+  fill: white;
+}
+
+#page1 > article > .box5 > img {
+  padding-left: 30px;
+}
+
+.page2 {
+  height: 105vh;
+  width: 100%;
+  background-color: rgb(232, 234, 235);
+}
+
+.page2 > header {
+  height: 19%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  color: rgb(17, 17, 17);
+  gap: 23px;
+}
+
+.page2 > header > h1 {
+  font-size: 49px;
+}
+.page2 > header > p {
+  font-size: 18px;
+}
+
+.page2 > article {
+  margin-top: 65px;
+  height: 50%;
+  width: 100%;
+}
+
+.page2 > .btn {
+  height: 70px;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page2 > div > button {
+  height: 50px;
+  width: 250px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.page2 > .pause {
+  position: relative;
+  left: 1400px;
+  bottom: 65px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid rgb(175, 175, 175);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  transition: 0.3s;
+}
+.page2 > .pause:hover {
+  border: 2px solid black;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.page3 {
+  height: 100vh;
+  width: 100%;
+}
+
+.page3 > header {
+  height: 27%;
+  padding-left: 60px;
+  padding-top: 75px;
+  font-size: 32px;
+  line-height: 60px;
+}
+.page3 > main {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  padding-left: 65px;
+}
+
+.page3 > main > .box {
+  margin-top: 20px;
+  height: 100%;
+  width: 31%;
+  background-color: rgb(245, 247, 248);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.page3 > main > .b3 > .container,
+.page3 > main > .b2 > .container,
+.page3 > main > .b1 > .container {
+  height: 83%;
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.page3 > main > .b3 > .container > .line1,
+.page3 > main > .b2 > .container > .line1,
+.page3 > main > .b1 > .container > .line1 {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.page3 > main > .b3 > .container > div {
+  position: relative;
+  bottom: 90px;
+}
+.page3 > main > .b2 > .container > div {
+  position: relative;
+  bottom: 20px;
+}
+.page3 > main > .b1 > .container > div {
+  position: relative;
+  bottom: 113px;
+}
+
+.page3 > main > .b3 > .container > .line2 {
+  margin-top: -180px;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.page3 > main > .b2 > .container > .line2 {
+  margin-top: -40px;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  line-height: 35px;
+}
+.page3 > main > .b1 > .container > .line2 {
+  margin-top: -230px;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.page3 > main > .b3 > .container > .line3,
+.page3 > main > .b2 > .container > .line3,
+.page3 > main > .b1 > .container > .line3 {
+  font-size: 14px;
+  font-weight: 450;
+  letter-spacing: 0.5px;
+}
+
+.page3 > .aside {
+  padding-top: 80px;
+  padding-left: 70px;
+  height: 20%;
+  width: 100%;
+}
+
+.page3 > .aside > .box {
+  height: 100%;
+  width: 50%;
+}
+
+.page3 > .aside > .b1 {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 16px;
+}
+
+.page3 > .aside > .b1 > .container {
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+
+.page3 > .aside > .b1 > p {
+  padding-top: 20px;
+}
+
+.page3 > .aside > .b2 > button {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 30px;
+  left: 1250px;
+  bottom: 70px;
+  position: relative;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.page4 {
+  margin-top: 200px;
+  height: 268vh;
+  width: 100%;
+}
+
+.page4 > .container1 {
+  height: 102vh;
+  width: 100%;
+  display: flex;
+}
+
+.page4 > .container1 > .box {
+  height: 100%;
+  width: 50%;
+}
+.page4 > .container1 > .b1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page4 > .container1 > .b1 > .contain {
+  margin-top: -47px;
+  margin-left: 130px;
+  height: 50%;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.page4 > .container1 > .b1 > .contain > h1 {
+  padding-top: 19px;
+  font-size: 46px;
+}
+
+.page4 > .container1 > .b1 > .contain > p {
+  padding-top: 29px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.page4 > .container1 > .b1 > .contain > button {
+  margin-top: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  height: 50px;
+  width: 113px;
+  transition: 0.3s;
+}
+.page4 > .container1 > .b1 > .contain > button:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.page4 > .container1 > .b2 > .box-img {
+  height: 100%;
+  width: 83%;
+  background-image: url(./images/phone.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.page4 > .container2 {
+  margin-top: 10px;
+  height: 73vh;
+  width: 100%;
+  display: flex;
+}
+
+.page4 > .container2 > .box {
+  height: 100%;
+  width: 50%;
+}
+
+.page4 > .container2 > .b1 {
+  background-image: url(./images/laptop.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.page4 > .container2 > .b2 > .contain {
+  height: 59%;
+  width: 67%;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.page4 > .container2 > .b2 > .contain > h4 {
+  font-size: 18px;
+}
+
+.page4 > .container2 > .b2 > .contain > h1 {
+  padding-top: 19px;
+  font-size: 46px;
+}
+
+.page4 > .container2 > .b2 > .contain > p {
+  padding-top: 35px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 540;
+}
+
+.page4 > .container2 > .b2 > .contain > .learn-more {
+  margin-top: 27px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  height: 49px;
+  width: 113px;
+  transition: 0.3s;
+}
+
+.page4 > .container2 > .b2 > .contain > .learn-more:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.page4 > .container2 > .b2 > .contain > .play {
+  height: 35px;
+  position: relative;
+  bottom: 3px;
+  left: 10px;
+  width: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.4s;
+}
+
+.page4 > .container2 > .b2 > .contain > .play:hover {
+  transform: scale(1.3);
+  transition: 0.4s;
+}
+
+.page4 > .container2 > .b2 > .contain > .video {
+  color: black;
+  display: inline;
+  margin-top: -75px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.page4 > .container2 > .b2 > .contain > .video:hover {
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+
+.page4 > .container3 {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+
+.page4 > .container3 > .box {
+  height: 100%;
+  width: 50%;
+}
+
+.page4 > .container3 > .b1 > .contain {
+  height: 59%;
+  width: 67%;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.page4 > .container3 > .b1 > .contain > h4 {
+  font-size: 18px;
+}
+
+.page4 > .container3 > .b1 > .contain > h1 {
+  padding-top: 19px;
+  font-size: 46px;
+}
+
+.page4 > .container3 > .b1 > .contain > p {
+  padding-top: 25px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 540;
+}
+
+.page4 > .container3 > .b1 > .contain > button {
+  margin-top: 27px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 550;
+  font-size: 15px;
+  height: 49px;
+  width: 150px;
+  transition: 0.3s;
+}
+
+.page4 > .container3 > .b1 > .contain > button:hover {
+  transform: scale(1.07);
+  transition: 0.3s;
+}
+
+.page4 > .container3 > .b2 {
+  height: 80%;
+  width: 70%;
+  background-image: url(./images/note.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.page5-banner {
+  margin-top: -80px;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page5-banner > .container {
+  height: 56vh;
+  width: 100%;
+  background-color: rgb(216, 239, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page5-banner > .container > .box {
+  margin-top: -60px;
+  height: 70%;
+  width: 40%;
+  text-align: center;
+}
+
+.page5-banner > .container > .box > h1 {
+  padding-top: 65px;
+  font-size: 35px;
+}
+
+.page5-banner > .container > .box > p {
+  padding-top: 40px;
+  font-size: 17px;
+}
+
+.page5-banner > .container > .box > .search {
+  width: 100%;
+  height: 20%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.page5-banner > .container > .box > .search > input {
+  height: 100%;
+  width: 80%;
+  padding-left: 30px;
+  border: none;
+  font-size: 25px;
+}
+
+.page5-banner > .container > .box > .search > input:focus {
+  border: 3px solid rgb(64, 149, 232);
+  outline: none;
+}
+
+.page5-banner > .container > .box > .search > input::placeholder {
+  line-height: normal;
+  font-size: 20px;
+}
+
+.page5-banner > .container > .box > .search > .box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100%;
+  background-color: black;
+  width: 20%;
+}
+
+.page5-banner > .container > .box > .search > .box1:hover {
+  background-color: rgb(9, 117, 122);
+  transition: 0.3s;
+}
+
+.page5 {
+  margin-top: 20px;
+  height: 100vh;
+  width: 100%;
+}
+
+.page5 > .banner-pic {
+  margin-top: -6px;
+  height: 72%;
+  width: 100%;
+  background-image: url(./images/chechi.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page5 > .banner-pic > .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.page5 > .banner-pic > .container > .box {
+  height: 100%;
+  width: 50%;
+}
+
+.page5 > .banner-pic > .container > .b1 > .name {
+  position: relative;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  top: 70px;
+  left: 63px;
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo {
+  height: 80%;
+  width: 75%;
+  margin-top: 48px;
+  margin-left: 50px;
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo > h1 {
+  font-size: 52px;
+  padding-top: 50px;
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo > p {
+  padding-top: 25px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo > h4 {
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo > .search {
+  height: 40px;
+  width: 100%;
+  margin-top: 33px;
+  display: flex;
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo > .search > input {
+  height: 100%;
+  width: 85%;
+  padding-left: 20px;
+  font-size: 18px;
+  border: none;
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo > .search > input:focus {
+  border: 2px solid rgb(186, 192, 195);
+  outline: none;
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo > .search > input::placeholder {
+  color: rgb(118, 118, 118);
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo > .search > .box {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo > .link {
+  position: relative;
+  top: 18px;
+  display: flex;
+  gap: 20px;
+}
+
+.page5 > .banner-pic > .container > .b2 > .logo > .link > a:link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.page5 > .banner-pic > .container > .b2 > .logo > .link > a:visited {
+  color: black;
+}
+.page5 > .banner-pic > .container > .b2 > .logo > .link > a:hover {
+  text-decoration: underline solid black;
+  color: black;
+}
+.page5 > .banner-pic > .container > .b2 > .logo > .link > a:active {
+  color: rgb(255, 0, 0);
+}
+
+.page6 {
+  margin-top: -160px;
+  height: 190vh;
+  width: 100%;
+}
+
+.page6 > header {
+  height: 23%;
+  width: 100%;
+  text-align: center;
+}
+.page6 > header > h1 {
+  padding-top: 27px;
+  font-size: 48px;
+  line-height: 65px;
+}
+
+.page6 > header > p {
+  font-size: 30px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.page6 > main {
+  margin-top: 80px;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page6 > main > .container {
+  height: 100%;
+  width: 50%;
+}
+.page6 > main > .container > .box {
+  padding-top: 30px;
+  border-top: 1px solid rgb(212, 219, 224);
+  height: 12.8%;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+}
+.page6 > main > .container > .box > .content {
+  height: 100%;
+  width: 95%;
+}
+
+.page6 > main > .container > .box > .down {
+  height: 100%;
+  width: 5%;
+  padding-left: 16px;
+  font-size: 20px;
+}
+
+.page6 > main > .container > .box > .content > h1 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.page6 > main > .container > .b {
+  height: 9%;
+}
+
+.need-help {
+  height: 29vh;
+  width: 100%;
+}
+
+.need-help > .b1 {
+  height: 55%;
+  width: 100%;
+}
+.need-help > .b2 {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  background-color: rgb(245, 247, 248);
+}
+
+.need-help > .box > .container {
+  height: 100%;
+  width: 50%;
+  margin-left: 70px;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.need-help > .box > .container > a:link {
+  font-weight: bold;
+  color: black;
+}
+.need-help > .box > .container > a:visited {
+  color: black;
+}
+
+footer {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  border-bottom: 1px solid #929393;
+}
+
+footer > header {
+  height: 22%;
+  width: 100%;
+  border-bottom: 1px solid rgb(118, 118, 118);
+}
+
+footer > header > .logo {
+  padding-top: 43px;
+  height: 100%;
+  width: 26%;
+  margin-left: 100px;
+}
+
+footer > header > .logo > p {
+  color: rgb(68, 68, 68);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer > header > .logo > svg {
+  margin-left: -10px;
+  margin-top: 18px;
+  width: 450px;
+  height: 50px;
+}
+
+footer > article {
+  height: 78%;
+  width: 100%;
+}
+footer > article > .container {
+  height: 72%;
+  width: 92%;
+  margin-top: 50px;
+  margin-left: 80px;
+  display: flex;
+}
+
+footer > article > .container > .box {
+  height: 100%;
+  width: 16.6%;
+  font-size: 13px;
+}
+
+footer > article > .container > .box > div > a:link {
+  color: rgb(186, 192, 195);
+  text-decoration: none;
+}
+footer > article > .container > .box > div > a:visited {
+  color: rgb(186, 192, 195);
+}
+footer > article > .container > .box > div > a:hover {
+  color: rgb(186, 192, 195);
+  text-decoration: underline solid rgb(186, 192, 195);
+}
+
+footer > article > .container > .b1 > div {
+  margin-top: 16px;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+footer > article > .container > .box > p {
+  font-weight: bold;
+}
+
+footer > article > .container > .b2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer > article > .container > .b2 > p {
+  margin-left: -40px;
+}
+
+footer > article > .container > .b2 > div {
+  margin-top: 3px;
+  height: 46%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+footer > article > .container > .b3 {
+  display: flex;
+  justify-content: center;
+}
+footer > article > .container > .b3 > p {
+  position: relative;
+  left: 40px;
+}
+
+footer > article > .container > .b3 > div {
+  margin-left: -20px;
+  margin-top: 45px;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+footer > article > .container > .b4 > p {
+  text-align: end;
+}
+
+footer > article > .container > .b4 > div {
+  height: 30%;
+  margin-top: 10px;
+  width: 60%;
+  margin-left: 130px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+
+footer > article > .container > .b5 {
+  margin-left: 30px;
+  display: flex;
+}
+
+footer > article > .container > .b5 > p {
+  position: relative;
+  left: 120px;
+  font-weight: bold;
+}
+
+footer > article > .container > .b5 > .contain {
+  height: 35%;
+  margin-top: 25px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer > article > .container > .b6 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+footer > article > .container > .b6 > p {
+  font-weight: bold;
+  position: relative;
+  right: 35px;
+}
+
+footer > article > .container > .b6 > .contain {
+  margin-top: 20px;
+  height: 60%;
+  position: relative;
+  left: 22px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer > article > .foot {
+  margin-top: 50px;
+  height: 12%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+footer > article > .foot > .box {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  align-items: end;
+  font-size: 16px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+footer > article > .foot > .box1 {
+  gap: 50px;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+footer > article > .foot > .box2 {
+  justify-content: end;
+  gap: 20px;
+  padding-right: 60px;
+}
+
+footer > article > .foot > .box2 > a:link {
+  color: #929393;
+}
+footer > article > .foot > .box2 > a:visited {
+  color: #929393;
+}
+
+.aid {
+  height: 19vh;
+  width: 100%;
+  display: flex;
+  background-color: rgb(17, 17, 17);
+  color: white;
+}
+
+.aid > .b1 {
+  padding-top: 35px;
+  padding-left: 70px;
+  height: 100%;
+  width: 85%;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.aid > .b1 > h6 {
+  padding-top: 12px;
+  font-size: 11px;
+}
+
+.aid > .b2 {
+  height: 100%;
+  width: 18%;
+  padding-top: 35px;
+  padding-left: 17px;
+}
+
+.aid > .b2 > .link {
+  height: 20%;
+  display: flex;
+  font-size: 12px;
+  gap: 20px;
+}
+
+.aid > .b2 > .link > a:link {
+  color: white;
+  text-decoration: none;
+}
+.aid > .b2 > .link > a:visited {
+  color: white;
+}
+.aid > .b2 > .link > a:hover {
+  color: white;
+  text-decoration: underline solid white;
+}
+
+.aid > .b2 > .chat {
+  position: fixed;
+  bottom: 4%;
+  right: 1.5%;
+  height: 50px;
+  width: 190px;
+  border-radius: 40px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(30, 117, 206),
+    rgb(48, 108, 204),
+    rgb(115, 76, 196),
+    rgb(116, 75, 196)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aid > .b2 > .chat > button {
+  cursor: pointer;
+  height: 83%;
+  width: 95%;
+  border-radius: 40px;
+  border: none;
+  font-weight: bold;
+  background-color: white;
+  font-size: 18px;
+}
+
+.aid > .b2 > .chat > button > i {
+  font-size: 24px;
+}
